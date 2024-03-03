@@ -37,6 +37,12 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 # Install Nuclei
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 
+# Install Katana
+go install github.com/projectdiscovery/katana/cmd/katana@latest
+
+# Install Gau
+go install github.com/lc/gau/v2/cmd/gau@latest
+
 # Verifying installations
 echo "Verifying installations..."
 go version
